@@ -1,7 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# dlmtree
+
+<!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/dlmtree)](https://CRAN.R-project.org/package=dlmtree)
+[![R-CMD-check](https://github.com/danielmork/dlmtree/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/danielmork/dlmtree/actions/workflows/R-CMD-check.yaml)
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/dlmtree)](https://CRAN.R-project.org/package=dlmtree)
+<!-- badges: end -->
 
 `dlmtree` is an R package that provides constrained distributed lag
 models (DLMs) using a regression tree approach within the Bayesian
@@ -12,9 +19,6 @@ associations, mixture exposures, and heterogeneous exposure effects. The
 package is built user-friendly with a single function with three
 arguments to specify treed DLMs. Functions for summarizing the model fit
 and visualization are also provided.
-
-<!-- badges: start -->
-<!-- badges: end -->
 
 ### Treed DLM Overview
 
