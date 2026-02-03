@@ -1,4 +1,4 @@
-f0489933bd66141f9d22b9cb1557b543 *DESCRIPTION
+f2641e13990ca2b809ed9241086eac0b *DESCRIPTION
 944d9ff2734647676b5d01ff9b2e055f *NAMESPACE
 c11310381e3187c95e4460f9b1e7f303 *NEWS.md
 0f0b637cd4152a284ee6f990834c3939 *R/RcppExports.R
@@ -6,14 +6,14 @@ c11310381e3187c95e4460f9b1e7f303 *NEWS.md
 dc49320d7530e279eb201ae4debfa8ad *R/coExp.R
 263be11746df89dbea14a80aebb3fce6 *R/combine.models.R
 e61bbe22b6d4eb61cb73f332e6296048 *R/control.R
-d12753fd998a30b92fb2887ef6f525c8 *R/diagnose.summary.hdlm.R
-c52e85b7c6740949fc85cc009bcdec4b *R/diagnose.summary.hdlmm.R
-2da9cc3ff4811049c4a703c4b5f930fa *R/diagnose.summary.monotone.R
-4bbd2f622e6f501678f1997a9c82b639 *R/diagnose.summary.tdlm.R
-633d257d7a85ef78ba3309649ef11285 *R/diagnose.summary.tdlmm.R
-448f92c70b8130d965b2b03581af1db6 *R/diagnose.summary.tdlnm.R
+494fefc90dbdae02a3e879b9f2adbcdc *R/diagnose.summary.hdlm.R
+6b55cfed379e0f9fbb227a290a4d2a84 *R/diagnose.summary.hdlmm.R
+fa52429f91778abe140fc71f6e7f9717 *R/diagnose.summary.monotone.R
+142e8b8d8f9bc0f3c7bd58b2bcb2208b *R/diagnose.summary.tdlm.R
+965f0d7aca1410797b19081afcc345dc *R/diagnose.summary.tdlmm.R
+633b13a350425bc9bb03fd89ab77bdc5 *R/diagnose.summary.tdlnm.R
 df6cc46bc7fae1a55b713f3d5065b35a *R/dlmtree-package.R
-e339fe6047c56fd60959cd3df975301e *R/dlmtree.R
+9537befc52020373b785b1bbac26ae10 *R/dlmtree.R
 1294261be2ec77222dc3569967d3d2db *R/drawTree.R
 20c03d0a1b43674a52d4cd50ef40933c *R/estDLM.R
 c15eff62ab2ba7154eeb844e7d74db1e *R/exposureCov.R
@@ -26,8 +26,8 @@ b5fa66017c1af054ef00b6c4f5fa5b00 *R/plot.summary.tdlmm.R
 f1633f3002cb1bf9511721120a435830 *R/plot.summary.tdlnm.R
 8a29f47c021743398de9cf542490bc2f *R/pm25Exposures.R
 9346c26bcc238fb2028fff9ca2e49437 *R/ppRange.R
-91d8d3e7ca0c1ba28c995da61e79aa8a *R/predict.hdlm.R
-5b1f11ccdc0c4a2f87d50a9702b30bc8 *R/predict.hdlmm.R
+a692d896129a96ea5ad6f64a1b6d3daf *R/predict.hdlm.R
+20f98022e0708321bdca24330a2d6cb4 *R/predict.hdlmm.R
 340b172bd5136742fd31282547ad5c41 *R/print.dlmtree.R
 d3a02e94d269ba6a37f815d9a9bdea4d *R/print.summary.hdlm.R
 837b412a0b3734d75cc6cda3100fd0b2 *R/print.summary.hdlmm.R
@@ -38,7 +38,7 @@ e89dfeb70da96960c2e01ce7e8e7eca2 *R/print.summary.tdlmm.R
 a55b3ad8df735fc248100bc00543e13e *R/scaleModelMatrix.R
 fe64a6d0a6a733d407463835e48af7ba *R/shiny.hdlm.R
 0c51fe8230ef52423ad33c9e476a6724 *R/shiny.hdlmm.R
-db5eef0fac0ae920a674f71bc17fbfc6 *R/sim.hdlmm.R
+dc05b1604fa589beec73acff5d2d90d1 *R/sim.hdlmm.R
 a5c2e8fe33366bf7f8026d81e5bc4b38 *R/sim.tdlmm.R
 0769d9467dbc697cfab1c31c44bc71da *R/sim.tdlnm.R
 3c8612b74a048bbb323f047cef4528a7 *R/splitpoints.R
@@ -50,8 +50,7 @@ a8cded041bffcac2ee0e0b3e436b9979 *R/summary.tdlmm.R
 281125d5f1a3faf0fb2feec8b369e3bc *R/summary.tdlnm.R
 d6fec9a38446f4410c62c718c65b9e52 *R/zinbCo.R
 f7165ce2e1a285324154f0f768d6648f *R/zzz.R
-42500728a40887092197106030d8d037 *README.md
-20c8d3f97d93e2e318a22508275b5a02 *build/partial.rdb
+bbe32269d151ac9a7403d9eafac0d6c0 *README.md
 666946cf36dd5417cb9e041af2965fed *data/coExp.rda
 0d98feaacbf8a0faf7f8cfb9863c7a37 *data/datalist
 33e18a745a3a739d7d1ec773778efd9b *data/exposureCov.rda
@@ -122,8 +121,8 @@ f672efe1651f05ebcd4135e193ae49cd *man/tdlnm_Cpp.Rd
 cc7ebb539e8d8fb5b8d0f0f32fbb9516 *man/zinbCo.Rd
 05f2aabb83a45bf873a3659e5cbaf3f8 *src/Fncs.cpp
 c50ca36af76d72d7d9b8ed6cf6b007e4 *src/Fncs.h
-57c88480d854ba7fdc31679c1c8481c2 *src/Makevars
-1433ad20edc467e26bf9847e172e589a *src/Makevars.win
+e2d347f9ad519d45dd6bcf3703472671 *src/Makevars
+879d39bdc7890abb5847fe2c3f7affec *src/Makevars.win
 68f5ee137d0f2fc01d1262d3dbf328db *src/Node.cpp
 aa583f583064c94f924054a70063e936 *src/Node.h
 f6741afd04f519ed443a0d99d04ab4cc *src/NodeStruct.cpp
@@ -132,7 +131,7 @@ fe1b15597257a2625f5923efa0c6fb91 *src/NodeStruct.h
 5d9e6ad206dc5b9fb70a335dd285fc95 *src/dlmtreeGPFixedGaussian.cpp
 4c81980ab745ccc2cb93429837409540 *src/dlmtreeGPGaussian.cpp
 d4bcbd0ae495868c82dbc8aef2c028de *src/dlmtreeHDLMGaussian.cpp
-23f6751e89581c74e587cf399675c450 *src/dlmtreeHDLMMGaussian.cpp
+8256f1ddc28865dbee8dab8e6b37908a *src/dlmtreeHDLMMGaussian.cpp
 6493f59d81a43e3258b9da99d62ad13d *src/dlmtreeTDLMFixedGaussian.cpp
 35d4bc19bc5abfad0763418ae504d1df *src/dlmtreeTDLMNestedGaussian.cpp
 86f8abb37c4c7eef2fa9df192c105be6 *src/dlmtreeTDLM_cpp.cpp
@@ -141,7 +140,7 @@ f084ce5e6dae1bf05b7d230ee177d0ed *src/exposureDat.cpp
 975d1cfe50717b06b3f36ad46ee655d4 *src/exposureDat.h
 40c7c8797d344e829ad0aa2c9fe8af3f *src/modDat.cpp
 ea31fb39cd316a79f21bb1f658a1ce43 *src/modDat.h
-35fed2a1d2168bfdf0e3617fe292ca5d *src/modelCtr.h
+69bf9813d94f65e49684e465b4320770 *src/modelCtr.h
 348acef086f3db5016451e889e2e83ff *src/modelEst.cpp
 d7ea45343dd8e4ee32eaa1c4c61bd4d7 *src/monotdlnm_Cpp.cpp
 01bdf5c7a2d8ce863806a03f752157a1 *src/mvt.f

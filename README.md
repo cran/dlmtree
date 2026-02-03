@@ -1,7 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-
+# dlmtree <img src="man/figures/logo.png" align="right" alt="" width="120" />
 <!-- badges: start -->
 
 [![CRAN
@@ -22,20 +21,20 @@ and visualization are also provided.
 
 ### Treed DLM Overview
 
-| Model                                                  |    Type    |  Family  | Mixture | Heterogeneity |
-|:-------------------------------------------------------|:----------:|:--------:|:-------:|:-------------:|
-| Treed distributed lag model (TDLM)$^2$                 |   Linear   | Gaussian |    X    |       X       |
-|                                                        |            |  Binary  |    X    |       X       |
-|                                                        |            |  Count   |    X    |       X       |
-| Treed distributed lag mixture model (TDLMM)$^2$        |   Linear   | Gaussian |    O    |       X       |
-|                                                        |            |  Binary  |    O    |       X       |
-|                                                        |            |  Count   |    O    |       X       |
-| Treed distributed non-linear lag model (TDLNM)$^{1,4}$ | Non-linear | Gaussian |    X    |       X       |
-|                                                        |            |  Binary  |    X    |       X       |
-|                                                        |  Monotone  | Gaussian |    X    |       X       |
-|                                                        |            |  Binary  |    X    |       X       |
-| Heterogeneous distributed lag model (HDLM)$^3$         |   Linear   | Gaussian |    X    |       O       |
-| Heterogeneous distributed lag mixture model (HDLMM)    |   Linear   | Gaussian |    O    |       O       |
+| Model                                                         |    Type    |  Family  | Mixture | Heterogeneity |
+|:--------------------------------------------------------------|:----------:|:--------:|:-------:|:-------------:|
+| Treed distributed lag model (TDLM)<sup>2</sup>                |   Linear   | Gaussian |    X    |       X       |
+|                                                               |            |  Binary  |    X    |       X       |
+|                                                               |            |  Count   |    X    |       X       |
+| Treed distributed lag mixture model (TDLMM)<sup>2</sup>       |   Linear   | Gaussian |    O    |       X       |
+|                                                               |            |  Binary  |    O    |       X       |
+|                                                               |            |  Count   |    O    |       X       |
+| Treed distributed non-linear lag model (TDLNM)<sup>1, 4</sup> | Non-linear | Gaussian |    X    |       X       |
+|                                                               |            |  Binary  |    X    |       X       |
+|                                                               |  Monotone  | Gaussian |    X    |       X       |
+|                                                               |            |  Binary  |    X    |       X       |
+| Heterogeneous distributed lag model (HDLM)<sup>3</sup>        |   Linear   | Gaussian |    X    |       O       |
+| Heterogeneous distributed lag mixture model (HDLMM)           |   Linear   | Gaussian |    O    |       O       |
 
 ### Model Selection Guide
 
@@ -60,8 +59,13 @@ library(dlmtree)
 
 ### References
 
-The majority of methods implemented in this package are described in the
-following papers as well as some on going work.
+
+The following paper describes this package, including a high-level overview of methods, R syntax and examples.
+
+1.  Im, S., Wilson, A. and Mork, D. (In Press). “Structured Bayesian Regression Tree Models for Estimating Distributed Lag Effects: The R Package dlmtree.”
+    _The R Journal_ ([arXiv preprint](https://arxiv.org/abs/2504.18452))
+
+The majority of methods implemented in this package are described in the following methods papers as well as some on going work.
 
 1.  Mork, D. and Wilson, A. (2022). “Treed distributed lag nonlinear
     models.” *Biostatistics*, *23*(3), 754–771 ([DOI:
