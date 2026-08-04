@@ -1,7 +1,7 @@
 Package: dlmtree
 Type: Package
 Title: Bayesian Treed Distributed Lag Models
-Version: 1.1.1
+Version: 1.2.0
 Authors@R: c(
     person("Daniel", "Mork", email = "dmork@hsph.harvard.edu", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-7924-0706")),
     person("Seongwon", "Im", email = "Seongwon.Im@colostate.edu", role = "aut", comment = c(ORCID = "0009-0000-8447-5852")),
@@ -19,11 +19,11 @@ URL: https://github.com/danielmork/dlmtree,
         https://danielmork.github.io/dlmtree/
 BugReports: https://github.com/danielmork/dlmtree/issues
 NeedsCompilation: yes
-Packaged: 2026-02-03 00:41:37 UTC; dmork
+Packaged: 2026-08-04 17:57:31 UTC; dmork
 Author: Daniel Mork [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0002-7924-0706>),
   Seongwon Im [aut] (ORCID: <https://orcid.org/0009-0000-8447-5852>),
   Ander Wilson [aut] (ORCID: <https://orcid.org/0000-0003-4774-3883>)
 Maintainer: Daniel Mork <dmork@hsph.harvard.edu>
 Repository: CRAN
-Date/Publication: 2026-02-03 03:20:02 UTC
+Date/Publication: 2026-08-04 22:20:02 UTC
